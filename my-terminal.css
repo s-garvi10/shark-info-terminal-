@@ -1,0 +1,38 @@
+:root {
+    --size: 1.5;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background: black;
+    overflow: auto;
+}
+
+.terminal {
+    min-height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+textarea.clipboard {
+    position: fixed !important;
+    left: -9999px !important;
+    top: -9999px !important;
+    width: 1px !important;
+    height: 1px !important;
+    opacity: 0 !important;
+}
+
+.command, .directory {
+    cursor: pointer;
+}
+
+a {
+    color: aquamarine;
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
